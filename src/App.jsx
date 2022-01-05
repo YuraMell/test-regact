@@ -8,6 +8,8 @@ import { Contacts } from './components/pages/Contacts';
 import { Home } from './components/pages/Home';
 import { NotFound } from './components/pages/NotFound';
 
+import './style.scss'
+
 function App() {
   return (
     <>
