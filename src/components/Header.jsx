@@ -15,9 +15,15 @@ const Header = () => {
               <li><a href="#">Для мужчин</a></li>
               <li><a href="#">Для женщин</a></li>
               <li><a href="#">Для детей</a></li>
-              <Link to='/' className="logo"><img src={logo} alt='logo' /></Link>
-              <Link to='/about'>Оплата</Link>
-              <Link to='/contacts'>Доставка</Link>
+              <li>
+                <Link to='/' className="logo"><img src={logo} alt='logo' /></Link>
+              </li>
+              <li>
+                <Link to='/about'>Оплата</Link>
+              </li>
+              <li>
+                <Link to='/contacts'>Доставка</Link>
+              </li>
             </ul>
             <div className="cart">
               <img src={cart} alt="" />
