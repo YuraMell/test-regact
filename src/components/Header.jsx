@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../images/logo.png'
 import cart from '../images/cart.svg'
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
   return (
@@ -14,11 +16,9 @@ const Header = () => {
             <li className="burger-menu_link"><a href="#">Для мужчин</a></li>
             <li className="burger-menu_link"><a href="#">Для женщин</a></li>
             <li className="burger-menu_link"><a href="#">Для детей</a></li>
-            <li className="logo burger-menu_link">
-              <img src={logo} alt="" />
-            </li>
-            <li className="burger-menu_link"><a href="#">Оплата</a></li>
-            <li className="burger-menu_link"><a href="#">Доставка</a></li>
+            <li><Link to='/' className="logo burger-menu_link"><img src={logo} alt="" /></Link></li>
+            <li><Link className="burger-menu_link" to='/about'>Оплата</Link></li>
+            <li><Link className="burger-menu_link" to="/contacts">Доставка</Link></li>
           </ul>
         </nav>
         <div className="burger-menu_overlay" />
@@ -31,14 +31,12 @@ const Header = () => {
               <li><a href="#">Для мужчин</a></li>
               <li><a href="#">Для женщин</a></li>
               <li><a href="#">Для детей</a></li>
-              <li className="logo">
-                <img src="../images/logo.png" alt="" />
-              </li>
-              <li><a href="#">Оплата</a></li>
-              <li><a href="#">Доставка</a></li>
+              <li><Link to='/' className="logo burger-menu_link"><img src={logo} alt="" /></Link></li>
+              <li><Link className="burger-menu_link" to='/about'>Оплата</Link></li>
+              <li><Link className="burger-menu_link" to="/contacts">Доставка</Link></li>
             </ul>
             <div className="cart">
-              <img src="../images/cart.svg" alt="" />
+              <img src={cart} alt="" />
               <strong>5</strong>
             </div>
           </header>

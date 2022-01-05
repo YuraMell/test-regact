@@ -13,7 +13,7 @@ import './style.scss'
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <Routes>
         <Route path="/" element={<Layout />}>
