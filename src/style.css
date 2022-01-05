@@ -267,4 +267,13 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.categories-links {
+  padding: 0;
+  background: linear-gradient(to left, #F9F6F1 50%, #F4F4F4 50%);
+}
+.categories-links .inner {
+  display: flex;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -284,3 +284,13 @@
   display: block;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.categories-links {
+  padding: 0;
+  background: linear-gradient(to left, #F9F6F1 50%, #F4F4F4 50%);
+
+  .inner {
+    display: flex;
+    align-items: center;
+  }
+}
