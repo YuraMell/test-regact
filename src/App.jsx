@@ -1,7 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import { Header } from './components/Header'
 import { Layout } from './components/Layout';
 import { About } from './components/pages/About';
 import { Contacts } from './components/pages/Contacts';
@@ -13,8 +12,6 @@ import './style.scss'
 function App() {
   return (
     <>
-      {/* <Header /> */}
-
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
