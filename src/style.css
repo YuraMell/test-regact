@@ -502,6 +502,103 @@
   cursor: pointer;
 }
 
+.slider {
+  padding: 120px 210px;
+  background: #F9F6F1;
+}
+.slider .inner .slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider .inner .slide .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.slider .inner .slide .left h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 35px;
+}
+.slider .inner .slide .left strong {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-bottom: 55px;
+}
+.slider .inner .slide .left a {
+  width: 240px;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D7B399;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.slider .inner .slide .left a:hover {
+  opacity: 1;
+}
+.slider .inner .slide .right {
+  position: relative;
+  width: 100%;
+  max-width: 556px;
+}
+.slider .inner .slide .right img {
+  max-width: 556px;
+}
+.slider .inner .slide .right h3,
+.slider .inner .slide .right h4 {
+  position: absolute;
+}
+.slider .inner .slide .right h3 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: #000000;
+  top: 40px;
+  right: 10px;
+}
+.slider .inner .slide .right h4 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #D84033;
+  top: 85px;
+  right: 0;
+}
+
 .new-models-all {
   display: flex;
   margin-bottom: 100px;
