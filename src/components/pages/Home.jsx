@@ -3,6 +3,7 @@ import Banner from "../banner";
 import CategoriesLinks from "../categories-links";
 import Catalog from "../Catalog";
 import NewModels from "../NewModels";
+import Form from "../Form";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <CategoriesLinks/>
       <Catalog/>
       <NewModels/>
+      <Form/>
     </>
   )
 }
