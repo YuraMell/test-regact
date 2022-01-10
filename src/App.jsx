@@ -7,7 +7,7 @@ import { Contacts } from './components/pages/Contacts';
 import { Home } from './components/pages/Home';
 import { NotFound } from './components/pages/NotFound';
 import SingleItem from "./components/pages/SingleItem";
-import {Products} from "./components/pages/Products";
+import { Products } from "./components/pages/Products";
 
 import './style.scss'
 
@@ -20,9 +20,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='contacts' element={<Contacts />} />
+          <Route path='products' element={<Products />} />
           <Route path='*' element={<NotFound />} />
           <Route path='single-item' element={<SingleItem />} >
-              <Route path=':id' element={<SingleItem />} />
+            <Route path=':id' element={<SingleItem />} />
           </Route>
         </Route>
       </Routes>
