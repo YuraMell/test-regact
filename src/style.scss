@@ -444,9 +444,8 @@
 
       &::after {
         content: url("/images/Arrow.svg");
-        position: absolute;
-        right: 20px;
-        top: 16px;
+        position: relative;
+        margin-left: 10px;
       }
     }
   }
