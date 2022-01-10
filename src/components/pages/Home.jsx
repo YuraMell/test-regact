@@ -6,6 +6,7 @@ import NewModels from "../models/NewModels";
 import Form from "../Form";
 import Slider from "../slider/Slider";
 import Sales from "../Sales";
+import { newModels } from '../../models.js'
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <Banner/>
       <CategoriesLinks/>
       <Catalog/>
-      <NewModels title="Новые модели"/>
+      <NewModels title="Новые модели" type={newModels}/>
       <Form/>
       <Sales/>
     </>

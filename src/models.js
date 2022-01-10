@@ -26,6 +26,29 @@ export const newModels = [
   },
 ]
 
+export const newModelsSales = [
+  {
+    title: 'Пивное платье',
+    img: NewModel,
+    price: '40 000',
+  },
+  {
+    title: 'Утренее платье',
+    img: NewModel,
+    price: '60 000',
+  },
+  {
+    title: 'Рарный скин',
+    img: NewModel,
+    price: '20 000',
+  },
+  {
+    title: 'Старая футболка',
+    img: NewModel,
+    price: '10 000',
+  },
+]
+
 export const slideDescription = [
   {
     title: "Зимняя распродажа",
