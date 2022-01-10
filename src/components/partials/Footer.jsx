@@ -1,4 +1,4 @@
-import footerLogo from '../images/footer-logo.png'
+import footerLogo from '../../images/footer-logo.png'
 import React from 'react'
 
 

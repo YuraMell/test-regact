@@ -1,5 +1,5 @@
 import React from 'react';
-import NewModels from "./NewModels";
+import NewModels from "./models/NewModels";
 import {Link} from "react-router-dom";
 
 const Sales = () => {

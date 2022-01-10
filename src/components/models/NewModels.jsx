@@ -1,8 +1,8 @@
 import React from 'react';
 import NewModelItem from "./NewModelItem";
-import NewModel from '../images/new-model.png'
+import NewModel from '../../images/new-model.png'
 import {Link} from "react-router-dom";
-import { newModels } from '../models.js'
+import { newModels } from '../../models.js'
 
 const NewModels = ({title}) => {
   // const newModels = [

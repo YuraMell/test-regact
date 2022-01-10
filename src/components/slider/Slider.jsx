@@ -4,7 +4,7 @@ import { Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Slide from "./Slide";
-import { slideDescription } from '../models.js'
+import { slideDescription } from '../../models.js'
 
 const Slider = () => {
   console.log(slideDescription)

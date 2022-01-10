@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../images/logo.png'
-import cart from '../images/cart.svg'
-import MobileMenu from "./mobileMenu";
+import logo from '../../images/logo.png'
+import cart from '../../images/cart.svg'
+import MobileMenu from "./MobileMenu";
 import { Link } from 'react-router-dom';
 
 const Header = () => {

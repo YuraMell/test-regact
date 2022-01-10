@@ -1,10 +1,10 @@
 import React from 'react'
-import Banner from "../banner";
-import CategoriesLinks from "../categories-links";
-import Catalog from "../Catalog";
-import NewModels from "../NewModels";
+import Banner from "../Banner";
+import CategoriesLinks from "../category/CategoriesLinks";
+import Catalog from "../catalog/Catalog";
+import NewModels from "../models/NewModels";
 import Form from "../Form";
-import Slider from "../Slider";
+import Slider from "../slider/Slider";
 import Sales from "../Sales";
 
 const Home = () => {

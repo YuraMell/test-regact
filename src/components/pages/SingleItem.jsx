@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Routes, useParams, useLocation } from "react-router-dom";
-import {Layout} from "../Layout";
+import {Layout} from "../partials/Layout";
 
 const SingleItem = () => {
   const params = useParams();

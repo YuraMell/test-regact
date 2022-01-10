@@ -1,5 +1,8 @@
 import NewModel from './images/new-model.png'
 import SlideImg from './images/slide-img.png'
+import ManItem from "./images/man-item.png";
+import Man from "./images/category-man.png";
+import WoMan from "./images/WoMan.png";
 export const newModels = [
   {
     title: 'Коктейльное платье',
@@ -45,7 +48,57 @@ export const slideDescription = [
     sales: "СКИДКИ ДО 45%",
     linkTitle: "СМОТРЕТЬ МОДЕЛИ",
     img: SlideImg,
-    defSale: "9 900 ₽",
+    defSale: "2 900 ₽",
     sale: "900 ₽"
   },
 ]
+
+export const catalogItems = [
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  },
+  {
+    title: 'ПЛАТЬЯ',
+    image: ManItem,
+  }
+]
+
+export const categories = {
+  colMan: {
+    titleSex: 'МУЖСКАЯ ',
+    description: 'Обувь, полуверы, костюмы',
+    linkID: 1,
+    img: Man,
+  },
+  colWoMan: {
+    titleSex: 'ЖЕНСКАЯ ',
+    description: 'Обувь, полуверы, костюмы',
+    linkID: 2,
+    img: WoMan,
+  }
+}
