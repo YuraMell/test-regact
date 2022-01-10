@@ -11,8 +11,8 @@ export const allProducts = [
     price: '40 000',
     _id: 5,
     sales: 0,
-    category: 'male',
-    type: 't-shirt',
+    category: 'Для мужчин',
+    type: 'Футболка',
     new: true,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
   },
@@ -22,8 +22,8 @@ export const allProducts = [
     price: '60 000',
     _id: 6,
     sales: 0,
-    category: 'male',
-    type: 'footwear',
+    category: 'Для мужчин',
+    type: 'Обувь',
     new: true,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
   },
@@ -32,8 +32,8 @@ export const allProducts = [
     img: NewModel,
     price: '00 000',
     _id: 7,
-    category: 'female',
-    type: 'dress',
+    category: 'Для женщин',
+    type: 'Платье',
     new: true,
     sales: 0,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
@@ -43,8 +43,8 @@ export const allProducts = [
     img: NewModel,
     price: '10 000',
     _id: 8,
-    category: 'female',
-    type: 'shoes',
+    category: 'Для женщин',
+    type: 'Обувь',
     new: true,
     sales: 0,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
@@ -54,8 +54,8 @@ export const allProducts = [
     img: NewModel,
     price: '30 000',
     _id: 1,
-    category: 'children',
-    type: 'shoes',
+    category: 'Для детей',
+    type: 'Обувь',
     sales: "50%",
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
 
@@ -66,8 +66,8 @@ export const allProducts = [
     price: '25 000',
     _id: 2,
     sales: "50%",
-    category: 'female',
-    type: 'shoes',
+    category: 'Для женщин',
+    type: 'Обувь',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
 
   },
@@ -76,8 +76,8 @@ export const allProducts = [
     img: NewModel,
     price: '18 000',
     _id: 3,
-    category: 'children',
-    type: 'dress',
+    category: 'Для детей',
+    type: 'Платье',
     sales: "50%",
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
 
@@ -88,8 +88,8 @@ export const allProducts = [
     price: '10 000',
     _id: 4,
     sales: "50%",
-    category: 'female',
-    type: 't-shirt',
+    category: 'Для женщин',
+    type: 'Футболка',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, est, laborum. Amet consectetur consequuntur deserunt ex, excepturi facere iste, magni minus nostrum quam quas reprehenderit sequi tenetur voluptatem voluptates, voluptatibus?'
 
   },
@@ -98,13 +98,13 @@ export const allProducts = [
 export const newModels = allProducts.filter(item => item.new)
 export const modelSales = allProducts.filter(item => parseInt(item.sales) > 0)
 
-export const maleModels = allProducts.filter(item => item.category === 'male')
-export const femaleModels = allProducts.filter(item => item.category === 'female')
-export const childrenModels = allProducts.filter(item => item.category === 'children')
+export const maleModels = allProducts.filter(item => item.category === 'Для мужчин')
+export const femaleModels = allProducts.filter(item => item.category === 'Для женщин')
+export const childrenModels = allProducts.filter(item => item.category === 'Для детей')
 
-export const dressModels = allProducts.filter(item => item.type === 'dress')
-export const tShirtModels = allProducts.filter(item => item.type === 't-shirt')
-export const shoesModels = allProducts.filter(item => item.type === 'shoes')
+export const dressModels = allProducts.filter(item => item.type === 'Платье')
+export const tShirtModels = allProducts.filter(item => item.type === 'Футболка')
+export const shoesModels = allProducts.filter(item => item.type === 'Обувь')
 
 export const slideDescription = [
   {
