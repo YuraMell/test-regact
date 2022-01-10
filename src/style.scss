@@ -363,7 +363,7 @@
 
 .catalog {
   padding-top: 0;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   .inner {
     display: flex;
     flex-wrap: wrap;
@@ -416,6 +416,7 @@
       text-transform: uppercase;
       color: #212121;
       margin-bottom: 100px;
+      margin-top: 50px;
       text-align: center;
     }
 
@@ -437,6 +438,7 @@
       color: #FFFFFF;
       cursor: pointer;
       opacity: 0.7;
+      text-decoration: none;
 
       &:hover {
         opacity: 1;
@@ -453,7 +455,7 @@
 
 .form {
   padding: 70px 0;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   background: #212121;
 
   .inner {
@@ -663,7 +665,7 @@
 
 .new-models-all {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
@@ -684,6 +686,7 @@
     flex-direction: column;
     align-items: center;
     padding: 25px;
+    margin: 50px 0;
 
     &:hover {
       cursor: pointer;

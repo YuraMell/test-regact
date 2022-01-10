@@ -14,9 +14,9 @@ const NewModels = ({title, type}) => {
           <div className="new-models-all">
             {type.map(item => <Link to={'/single-item/'+ item._id} key={item._id} ><NewModelItem info={item} /></Link>)}
           </div>
-          <a className="new-item-button">
+          <Link className="new-item-button" to='products'>
             ВСЕ МОДЕЛИ
-          </a>
+          </Link>
         </div>
       </section>
     </>

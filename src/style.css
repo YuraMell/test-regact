@@ -343,7 +343,7 @@
 
 .catalog {
   padding-top: 0;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .catalog .inner {
   display: flex;
@@ -393,6 +393,7 @@
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 .new-models .inner .new-item-button {
@@ -413,20 +414,20 @@
   color: #FFFFFF;
   cursor: pointer;
   opacity: 0.7;
+  text-decoration: none;
 }
 .new-models .inner .new-item-button:hover {
   opacity: 1;
 }
 .new-models .inner .new-item-button::after {
   content: url("/images/Arrow.svg");
-  position: absolute;
-  right: 20px;
-  top: 16px;
+  position: relative;
+  margin-left: 10px;
 }
 
 .form {
   padding: 70px 0;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   background: #212121;
 }
 .form .inner {
@@ -621,7 +622,7 @@
 
 .new-models-all {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
@@ -642,6 +643,7 @@
   flex-direction: column;
   align-items: center;
   padding: 25px;
+  margin: 50px 0;
 }
 .new-models-all .new-item:hover {
   cursor: pointer;
