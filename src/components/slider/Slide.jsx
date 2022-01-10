@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Slide = ({slideDescription}) => {
+const Slide = ({ slideDescription }) => {
   return (
     <div className="slide">
       <div className="left">
         <h2>{slideDescription.title}</h2>
         <strong>{slideDescription.sales}</strong>
-        <a>{slideDescription.linkTitle}</a>
+        <a href='/'>{slideDescription.linkTitle}</a>
       </div>
       <div className="right">
         <img src={slideDescription.img} alt="" />

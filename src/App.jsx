@@ -11,7 +11,6 @@ import { Products } from "./components/pages/Products";
 
 import './style.scss'
 
-
 function App() {
   return (
     <>
@@ -21,6 +20,12 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contacts' element={<Contacts />} />
           <Route path='products' element={<Products />} />
+          <Route path='category' element={<Products />} >
+            <Route path='*' element={<Products />} />
+          </Route>
+          <Route path='type' element={<Products />} >
+            <Route path='*' element={<Products />} />
+          </Route>
           <Route path='*' element={<NotFound />} />
           <Route path='single-item' element={<SingleItem />} >
             <Route path=':id' element={<SingleItem />} />
