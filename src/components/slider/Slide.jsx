@@ -1,8 +1,6 @@
 import React from 'react';
-import SlideImg from '../../images/slide-img.png'
 
 const Slide = ({slideDescription}) => {
-  console.log(slideDescription)
   return (
     <div className="slide">
       <div className="left">

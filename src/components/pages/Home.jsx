@@ -5,8 +5,7 @@ import Catalog from "../catalog/Catalog";
 import NewModels from "../models/NewModels";
 import Form from "../Form";
 import Slider from "../slider/Slider";
-import Sales from "../Sales";
-import { newModels } from '../../models.js'
+import { newModels, modelSales } from '../../models.js'
 
 const Home = () => {
   return (
@@ -17,7 +16,7 @@ const Home = () => {
       <Catalog/>
       <NewModels title="Новые модели" type={newModels}/>
       <Form/>
-      <Sales/>
+      <NewModels title="Скидки до 90% " type={modelSales}/>
     </>
   )
 }
