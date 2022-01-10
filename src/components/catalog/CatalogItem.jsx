@@ -1,5 +1,5 @@
 import React from 'react';
-import ManItem from '../images/man-item.png'
+import ManItem from '../../images/man-item.png'
 
 const CatalogItem = ({info}) => {
   return (
