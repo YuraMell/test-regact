@@ -1,8 +1,7 @@
 import React from 'react';
 import NewModelItem from "./NewModelItem";
-import NewModel from '../../images/new-model.png'
 import {Link} from "react-router-dom";
-import { newModels, newModelsSales } from '../../models.js'
+import {Products} from "../pages/Products";
 
 const NewModels = ({title, type}) => {
   return (
@@ -13,7 +12,7 @@ const NewModels = ({title, type}) => {
             {title}
           </h2>
           <div className="new-models-all">
-            {type.map((item, id) => <Link to={'/single-item/'+ id} key={id} ><NewModelItem info={item} /></Link>)}
+            {type.map(item => <Link to={'/single-item/'+ item._id} key={item._id} ><NewModelItem info={item} /></Link>)}
           </div>
           <a className="new-item-button">
             ВСЕ МОДЕЛИ
