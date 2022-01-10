@@ -1,18 +1,19 @@
 import React from 'react';
 import SlideImg from '../images/slide-img.png'
 
-const Slide = () => {
+const Slide = ({slideDescription}) => {
+  console.log(slideDescription)
   return (
     <div className="slide">
       <div className="left">
-        <h2>Зимняя распродажа</h2>
-        <strong>СКИДКИ ДО 90%</strong>
-        <a>СМОТРЕТЬ МОДЕЛИ</a>
+        <h2>{slideDescription.title}</h2>
+        <strong>{slideDescription.sales}</strong>
+        <a>{slideDescription.linkTitle}</a>
       </div>
       <div className="right">
-        <img src={SlideImg} alt="" />
-        <h3>9 900 ₽ </h3>
-        <h4>1 900 ₽ </h4>
+        <img src={slideDescription.img} alt="" />
+        <h3>{slideDescription.defSale}</h3>
+        <h4>{slideDescription.sale} </h4>
       </div>
     </div>
   );

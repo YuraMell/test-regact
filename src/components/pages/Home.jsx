@@ -5,6 +5,7 @@ import Catalog from "../Catalog";
 import NewModels from "../NewModels";
 import Form from "../Form";
 import Slider from "../Slider";
+import Sales from "../Sales";
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
       <Banner/>
       <CategoriesLinks/>
       <Catalog/>
-      <NewModels/>
+      <NewModels title="Новые модели"/>
       <Form/>
+      <Sales/>
     </>
   )
 }

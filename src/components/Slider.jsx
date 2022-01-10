@@ -4,8 +4,10 @@ import { Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Slide from "./Slide";
+import { slideDescription } from '../models.js'
 
 const Slider = () => {
+  console.log(slideDescription)
   return (
     <>
       <section className="slider">
@@ -16,12 +18,14 @@ const Slider = () => {
             pagination={{ clickable: true }}
             slidesPerView={1}
             loop
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
           >
-            <SwiperSlide><Slide/></SwiperSlide>
-            <SwiperSlide><Slide/></SwiperSlide>
-            <SwiperSlide><Slide/></SwiperSlide>
+            {slideDescription.map((slide, id) => {
+              return (
+                <SwiperSlide key={id}>
+                  <Slide slideDescription={slide}/>
+                </SwiperSlide>
+              )
+            })}
           </Swiper>
         </div>
       </section>
